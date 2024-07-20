@@ -235,6 +235,26 @@ export const projects = [
     img: "/react/e-commerce.png",
     iconLists: ["/javascript.png", "/re.svg", "/mui.png", "/redux.png"],
   },
+    {
+    id: 16,
+    title: "CRUD-APP",
+    des: "Create CRUD-APP using ReactJs.",
+    github: "https://github.com/hashim-salah-alden/CRUD-APP",
+    livedemo: "https://crud-app-self-phi.vercel.app/",
+    category: "react",
+    img: "/react/crud-app.png",
+    iconLists: ["/javascript.png", "/re.svg", "/redux.png"],
+  },
+  {
+    id: 17,
+    title: "ALAHLY",
+    des: "Create ALAHLY Web Site Using Vanila Javascript.",
+    github: "https://github.com/hashim-salah-alden/Alahly-project",
+    livedemo: "https://idyllic-cobbler-6cc85e.netlify.app/",
+    category: "javascript",
+    img: "/javascript/alahly.png",
+    iconLists: ["/html.png", "/css.png", "/javascript.png"],
+  },
 ];
 
 export const companies = [
