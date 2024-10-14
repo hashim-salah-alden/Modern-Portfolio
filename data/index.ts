@@ -7,13 +7,13 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    title: "Currently building MERN stack Projects",
+    description: "The Inside Scoop",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
-    spareImg: "",
+    img: "/b5.svg",
+    spareImg: "/grid.svg",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "My tech skills",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -36,7 +36,7 @@ export const gridItems = [
     spareImg: "",
   },
   {
-    id: 4,
+    id: 6,
     title: "Tech enthusiast with a passion for development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
@@ -45,27 +45,6 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
-  {
-    id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
-  {
-    id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
 ];
 
 export const projectsCategoriesButtons = [
@@ -73,7 +52,7 @@ export const projectsCategoriesButtons = [
   { text: "HTML & CSS", value: "html" },
   { text: "JavaScript", value: "javascript" },
   { text: "ReactJs", value: "react" },
-  { text: "Wordpress", value: "wordpress" },
+  { text: "MernStack", value: "mernstack" },
 ];
 
 export const projects = [
@@ -203,8 +182,8 @@ export const projects = [
     id: 13,
     title: "Admin-Dashboard",
     des: "Create Admin-Dashboard using ReactJs.",
-    github: "https://github.com/hashim-salah-alden/Admin-Dashboard",
-    livedemo: "https://admin-dashboard-eb85d.web.app/",
+    github: "https://github.com/hashim-salah-alden/Admin-Dashboard/tree/master",
+    livedemo: "https://admin-dashboard97.netlify.app/",
     category: "react",
     img: "/react/admin-dashboard.png",
     iconLists: [
@@ -229,13 +208,13 @@ export const projects = [
     id: 15,
     title: "ECommerce",
     des: "Create ECommerce  using ReactJs.",
-    github: "https://github.com/hashim-salah-alden/ECommerce",
-    livedemo: "https://ecommerce-6774c.web.app/",
+    github: "https://github.com/hashim-salah-alden/ECommerce/tree/master",
+    livedemo: "https://react-ecommerce97.netlify.app/",
     category: "react",
     img: "/react/e-commerce.png",
     iconLists: ["/javascript.png", "/re.svg", "/mui.png", "/redux.png"],
   },
-    {
+  {
     id: 16,
     title: "CRUD-APP",
     des: "Create CRUD-APP using ReactJs.",
@@ -248,60 +227,49 @@ export const projects = [
   {
     id: 17,
     title: "ALAHLY",
-    des: "Create ALAHLY Web Site Using Vanila Javascript.",
+    des: "Create ALAHLY Web Site Using Vanila Javascript. (FrontEnd V)",
     github: "https://github.com/hashim-salah-alden/Alahly-project",
     livedemo: "https://idyllic-cobbler-6cc85e.netlify.app/",
     category: "javascript",
     img: "/javascript/alahly.png",
     iconLists: ["/html.png", "/css.png", "/javascript.png"],
   },
+  {
+    id: 18,
+    title: "Chat-App",
+    des: "Create Real Time Chat-App Using MernStack",
+    github: "https://github.com/hashim-salah-alden/chat-app--MERN-stack-",
+    livedemo: "https://chat-app-mern-stack-2v3d.onrender.com",
+    category: "mernstack",
+    img: "/mernstack/chat-app.png",
+    iconLists: ["/javascript.png", "/re.svg", "/redux.png"],
+  },
+  {
+    id: 19,
+    title: "Memories-App",
+    des: "Create a Simple Social Media App That Allows Users To Post Interesting Events",
+    github: "https://github.com/hashim-salah-alden/Memories-app-MERN-stack-",
+    livedemo: "https://memories-app-mern-stack.onrender.com/",
+    category: "mernstack",
+    img: "/mernstack/memories-app.png",
+    iconLists: ["/html.png", "/css.png", "/javascript.png"],
+  },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
+export const companies = [];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Graduation Project",
+    desc: "Led a team of developers to develop a website for AlAhly Fc.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Fullstack Developer",
+    desc: " implement organizational and guidance projects for the Ministryof Defense during military service ",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
