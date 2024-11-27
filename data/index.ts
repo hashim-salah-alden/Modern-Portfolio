@@ -261,7 +261,7 @@ export const projects = [
     github: "https://github.com/hashim-salah-alden/twitter-clone",
     livedemo: "http://localhost:5000/auth/login",
     category: "mernstack",
-    img: "/mernstack/twitter-clone",
+    img: "/mernstack/twitter-clone.png",
     iconLists: ["/javascript.png", "/re.svg",],
   },
 ];
