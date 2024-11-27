@@ -252,7 +252,17 @@ export const projects = [
     livedemo: "https://memories-app-mern-stack.onrender.com/",
     category: "mernstack",
     img: "/mernstack/memories-app.png",
-    iconLists: ["/html.png", "/css.png", "/javascript.png"],
+    iconLists: ["/javascript.png", "/re.svg"],
+  },
+    {
+    id: 20,
+    title: "Twitter-Clone",
+    des: "Build and Deploy a Twitter Clone From Scratch",
+    github: "https://github.com/hashim-salah-alden/twitter-clone",
+    livedemo: "http://localhost:5000/auth/login",
+    category: "mernstack",
+    img: "/mernstack/twitter-clone",
+    iconLists: ["/javascript.png", "/re.svg",],
   },
 ];
 
