@@ -259,7 +259,7 @@ export const projects = [
     title: "Twitter-Clone",
     des: "Build and Deploy a Twitter Clone From Scratch",
     github: "https://github.com/hashim-salah-alden/twitter-clone",
-    livedemo: "http://localhost:5000/auth/login",
+    livedemo: "https://twitter-clone-ioiy.onrender.com/",
     category: "mernstack",
     img: "/mernstack/twitter-clone.png",
     iconLists: ["/javascript.png", "/re.svg",],
