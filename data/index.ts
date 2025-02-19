@@ -271,7 +271,7 @@ export const projects = [
     github: "https://orient-nine.vercel.app/en",
     livedemo: "https://orient-nine.vercel.app/en",
     category: "mernstack",
-    img: "/mernstack/OrientEcommerce.png",
+    img: "/mernstack/orientecommerce.png",
     iconLists: ["/javascript.png", "/re.svg",],
   },
 ];
