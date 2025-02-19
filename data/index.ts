@@ -264,6 +264,16 @@ export const projects = [
     img: "/mernstack/twitter-clone.png",
     iconLists: ["/javascript.png", "/re.svg",],
   },
+      {
+    id: 21,
+    title: "Orient | Ecommerce",
+    des: "Build and Deploy a Twitter Clone From Scratch",
+    github: "https://orient-nine.vercel.app/en",
+    livedemo: "https://orient-nine.vercel.app/en",
+    category: "mernstack",
+    img: "/mernstack/OrientEcommerce.png",
+    iconLists: ["/javascript.png", "/re.svg",],
+  },
 ];
 
 export const companies = [];
